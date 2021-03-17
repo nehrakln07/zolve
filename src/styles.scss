@@ -1,0 +1,37 @@
+.app{
+  width: 90%;
+  margin: auto;
+  .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    .navbar{
+      a{
+        padding: 0px 10px;
+      }
+    }
+  }
+  .home{
+    padding-top: 30px;
+    .form-container{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      input{
+        padding: 8px 16px;
+        font-size: 16px;
+      }
+    }
+  }
+  .click-copy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0px;
+  }
+}
+.chart-container{
+  border: 1px solid;
+  padding: 20px;
+  margin-top: 50px;
+}
